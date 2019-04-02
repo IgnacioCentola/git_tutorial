@@ -1,14 +1,19 @@
 
+using System;
 
-
-namespace Proyecto{
+namespace Proyecto
+{
 
     
-    public class Class1{
-        for(int i=0; i<5; i++){
-    Console.WriteLine("Peron");
+    public class Class1
+    {
 
-        };
+        public int Prop1 { get; set; }
+        public int Prop2 { get; set; }
+
+
+
+        
     }
 }
 
